@@ -1,2 +1,2 @@
 # Emmy-guess-game
-#### A quick, very basic ramdom number guess game I created for fun😉 
+#### A quick, very basic random number guess game I created for fun😉 
