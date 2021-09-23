@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmy Guess Game</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="big-div">
+      <header>
+        <h2>Emmy Guess Game <span>😉</span></h2>
+        <div class="top-left-div">
+          <p class="about">About Game</p>
+          <!-- <hr /> -->
+          <p>
+            This is a simple game which requires you to guess a random number
+            from 1 - 20 and see if your guess is the same with Emmy's secret
+            number😁
+          </p>
+        </div>
+        <p class="top-center">(Choose a number from 1-20)</p>
+      </header>
+
+      <section class="middle">
+        <p>Player Name:</p>
+        <input type="text" class="input-box name" placeholder="Player Name" />
+        <p>Player ID:</p>
+        <input
+          type="text"
+          class="input-box player-id"
+          placeholder="Player ID"
+        />
+        <p>Country:</p>
+        <input
+          type="text"
+          class="input-box player-country"
+          placeholder="Your Country"
+        />
+      </section>
+      <div class="number">?</div>
+
+      <section class="bottom-left">
+        <p>Guess here <i class="arrow"></i></p>
+        <input class="input-box user-guess" type="number" /> <br />
+        <br />
+        <button class="btn submit-guess">SUBMIT GUESS</button>
+      </section>
+
+      <center>
+        <button class="btn try-again">TRY AGAIN</button>
+      </center>
+      <section class="buttom-right">
+        <p class="info">Start Guessing...</p>
+        <p>Attempts left: <span class="attempt">20</span></p>
+        <p>Score: <span class="score">20</span></p>
+        <p>High Score: <span class="highscore">0</span></p>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
